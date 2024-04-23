@@ -278,14 +278,14 @@ display: block;
 /*======portfolio=====*/
 
 .port-container {
-    display: block; }
+    display: block;
+ }
 
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    margin-top: 72px;
 }
  
 .portfolio-title {
@@ -294,27 +294,27 @@ display: block;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    text-transform: capitalize;
+    text-transform: capitalize; 
+    margin-bottom: 72px;
 }
 
 .ptf-item-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-top: 32px;
-    padding-left: 16px;
     margin-bottom: 8px;
 }
 
 .ptf-item-text {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    padding-left: 16px;
-    margin-bottom: 32px;
+}
 
+.port-text-box {
+    padding: 32px 16px;
+    letter-spacing: 0.02em;
+    border: 1px solid #e7e9fc;
 }
 
 
@@ -322,8 +322,7 @@ display: block;
 
 .footer-block {
     background: #2e2f42;
-    max-width: 1440px;
-    padding-top: 120px;
+    max-width: 1440px
 }
 
 .footer-link {
@@ -334,6 +333,8 @@ display: block;
     text-transform: uppercase;
     color: #4d5ae5;
     font-weight: 700;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo {
@@ -351,7 +352,9 @@ display: block;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     width: 264px;
-    margin-top: 16px;
-    padding-bottom: 100px;
 }
 
+.footer-container {
+    padding: 100px 0;
+
+}
