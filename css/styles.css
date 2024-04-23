@@ -50,6 +50,9 @@ img {
 .header-block {
     display: flex;
     justify-content: space-between;
+}
+
+.top-header {
     border-bottom: 1px solid #e7e9fc
 }
 
@@ -60,14 +63,14 @@ img {
 
  .menu-list {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
  }
 
  .contacts-list {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
  }
@@ -199,7 +202,7 @@ display: flex;
 }
 
 .visually-hidden {
-    display: none;
+    overflow: hidden;
 }
 
 .benefits-item-name {
@@ -253,6 +256,7 @@ display: block;
     margin-bottom: 72px;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 .team-item-name {
@@ -260,12 +264,12 @@ display: block;
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .team-item-text {
     font-size: 16px;
     line-height: 1.5;
-    margin-top: 8px;
 }
 
 .team-info {
