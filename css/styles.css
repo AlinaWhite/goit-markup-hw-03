@@ -45,6 +45,7 @@ img {
 .header-block {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #e7e9fc
 }
 
  .menu {
@@ -162,10 +163,10 @@ img {
     padding-left: 32px;
     padding-right: 32px;
     border-radius: 4px;
-    min-width: 173px;
+    min-width: 169px;
     height: 56px;
     border: none;
-    display: flex;
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
@@ -179,22 +180,25 @@ img {
 
 /* =====Benefits=====*/
 
+.general-padd {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .benefits-container {
 display: flex;
-padding-top: 120px;
-padding-bottom: 120px;
 }
 
 .benefits-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .benefits-item {
     width: calc((100% - 72px) / 4);
 }
 
-.benefits-title {
+.visually-hidden {
     display: none;
 }
 
@@ -217,14 +221,12 @@ padding-bottom: 120px;
 /*=======our-Team=====8*/
 
 .team-container {
- padding-top: 120px;
- padding-bottom: 120px;
 display: block;
 }
 
 .team-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .our-team-box {
@@ -234,11 +236,9 @@ display: block;
 .team-list-item {
     background: #ffffff;
     width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
-.team-item-foto {
-    margin-bottom: 32px;
-}
 
 .team-box-title {
     font-size: 36px;
@@ -258,33 +258,27 @@ display: block;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
-    margin-bottom: 8px;
 }
 
 .team-item-text {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    margin-top: 8px;
+}
+
+.team-info {
+    display: block;
     text-align: center;
-    margin-bottom: 32px;
-    padding-left: auto;
-    padding-right: auto;
+    letter-spacing: 0.02em;
+    padding-bottom: 32px;
+    padding-top: 32px;
 }
 
 /*======portfolio=====*/
 
 .port-container {
-    display: block; 
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-.portfolio-list-item {
-    width: calc((100% - 72px) / 4);
-}
+    display: block; }
 
 .portfolio-list {
     display: flex;
